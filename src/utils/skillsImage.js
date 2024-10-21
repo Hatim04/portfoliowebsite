@@ -14,6 +14,7 @@ import react from '../assets/svg/skills/react.svg'
 import svelte from '../assets/svg/skills/svelte.svg'
 import typescript from '../assets/svg/skills/typescript.svg'
 import vue from '../assets/svg/skills/vue.svg'
+import laravel from '../assets/svg/skills/laravel.svg'
 import bootstrap from '../assets/svg/skills/bootstrap.svg'
 import bulma from '../assets/svg/skills/bulma.svg'
 import capacitorjs from '../assets/svg/skills/capacitorjs.svg'
@@ -111,6 +112,8 @@ export const skillsImage = (skill) => {
             return typescript;
         case 'vue':
             return vue;
+        case 'laravel':
+            return laravel;
         case 'bootstrap':
             return bootstrap;
         case 'bulma':
